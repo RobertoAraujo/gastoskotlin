@@ -1,5 +1,6 @@
 package br.gov.ac.sefaz.treinamento.gerenciamentocontas.domain
 
+import br.gov.ac.sefaz.treinamento.gerenciamentocontas.dto.PessoaInput
 import br.gov.ac.sefaz.treinamento.gerenciamentocontas.enums.Status
 import java.time.LocalDateTime
 import java.util.*
@@ -21,5 +22,4 @@ class PessoaEntity(
     @Enumerated(EnumType.ORDINAL)
     @Column(name = "STATUS")
     val status: Status
-
 )
