@@ -1,4 +1,4 @@
-package br.gov.ac.sefaz.treinamento.GerenciamentoContas
+package br.gov.ac.sefaz.treinamento.gerenciamentocontas
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
