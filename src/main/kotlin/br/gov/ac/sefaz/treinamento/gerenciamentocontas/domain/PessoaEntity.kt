@@ -1,7 +1,6 @@
 package br.gov.ac.sefaz.treinamento.gerenciamentocontas.domain
 
-import br.gov.ac.sefaz.treinamento.gerenciamentocontas.constants.Status
-import net.bytebuddy.matcher.ElementMatchers
+import br.gov.ac.sefaz.treinamento.gerenciamentocontas.enums.Status
 import java.time.LocalDateTime
 import java.util.*
 import javax.persistence.*
